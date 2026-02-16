@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Impostore</string>
+    <string name="start">Avvia partita</string>
+    <string name="player">Giocatore</string>
+    <string name="settings">Impostazioni</string>
+    <string name="language">Lingua</string>
+    <string name="ok">OK</string>
+    <string name="insert_player_names">Inserisci i nomi dei giocatori</string>
+    <string name="confirm">Conferma</string>
+    <string name="cancel">Annulla</string>
+    <string name="undercovers">Impostori</string>
+    <string name="was_the_undercover">era l\'impostore!</string>
+    <string name="was_not_undercover">non era l\'impostore!</string>
+    <string name="players">Giocatori</string>
+    <string name="tap_to_flip">Tocca per girare</string>
+    <string name="vote_result">Risultato del voto</string>
+    <string name="time_to_vote">Momento di votare l\'impostore!</string>
+    <string name="pass_phone">Passa il telefono</string>
+    <string name="word">Parola</string>
+</resources>
