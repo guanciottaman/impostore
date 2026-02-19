@@ -130,7 +130,8 @@ fun UndercoverApp() {
     val scope = rememberCoroutineScope()
 
     var playerCount by remember { mutableIntStateOf(4) }
-    var players by remember { mutableStateOf(List(playerCount) { "Player ${it + 1}" }) }
+    val playerLabel = localizedString(R.string.player)
+    var players by remember { mutableStateOf(List(playerCount) { "$playerLabel ${it + 1}" }) }
     var undercoverCount by remember { mutableIntStateOf(1) }
 
     var gameStarted by remember { mutableStateOf(false) }
@@ -237,7 +238,9 @@ fun UndercoverApp() {
 
                 if (!gameStarted) {
                     var showNamesPopup by remember { mutableStateOf(false) }
-                    val tempNames = remember { players.toMutableStateList() }
+                    val tempNames = remember(playerCount) { MutableList(playerCount) {
+                        index -> players.getOrNull(index) ?: ""
+                    }.toMutableStateList() }
 
                     if (showNamesPopup) {
 
