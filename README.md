@@ -47,6 +47,6 @@ Do not commit:
 - [ ] Persistent scoring system
 - [ ] Theme customization
 ## 👤 Author
-**Guanciottaman**
-Content creator & developer
+### Guanciottaman
+Content creator & developer \
 Made with Kotlin 💙
