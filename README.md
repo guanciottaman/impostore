@@ -7,7 +7,7 @@ Perfect for groups, passing the phone around and just having fun together!
 - 🌍 Multi-language support
 - 🔄 Dynamic language switching
 - 👤 Customizable number of players
-📱 Compatible with Android 7.0+
+- 📱 Compatible with Android 7.0+
 ## 🛠️ Tech Stack
 - Kotlin
 - Jetpack Compose
